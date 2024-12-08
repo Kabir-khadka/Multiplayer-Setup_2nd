@@ -79,7 +79,7 @@ namespace StarterAssets
         [Tooltip("For locking the camera position on all axis")]
         public bool LockCameraPosition = false;
 
-        
+
 
         // cinemachine
         private float _cinemachineTargetYaw;
@@ -101,7 +101,8 @@ namespace StarterAssets
         private bool isKicking = false;
         private bool isPunching = false;
 
-        
+        private bool isComboActive;
+        private bool isComboQueued = false; // To queue Combo2 during Combo1
 
 
         // timeout deltatime
@@ -219,7 +220,7 @@ namespace StarterAssets
             Move();
             HandPunch();
             //ComboAttack();
-            
+
         }
 
         private void LateUpdate()
@@ -295,7 +296,7 @@ namespace StarterAssets
 
                 //Reset the kicking state after the kick animation ends.
                 StartCoroutine(ResetKickingAfterDelay(1f)); // Duration matches kick animation length.
-               
+
             }
 
         }
