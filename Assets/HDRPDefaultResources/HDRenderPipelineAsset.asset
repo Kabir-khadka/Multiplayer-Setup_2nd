@@ -49,7 +49,7 @@ MonoBehaviour:
     supportTransparentDepthPrepass: 1
     supportTransparentDepthPostpass: 1
     colorBufferFormat: 74
-    supportCustomPass: 1
+    supportCustomPass: 0
     customBufferFormat: 8
     supportedLitShaderMode: 2
     planarReflectionResolution:
@@ -64,9 +64,9 @@ MonoBehaviour:
     supportDecalLayers: 1
     supportSurfaceGradient: 1
     decalNormalBufferHP: 0
-    supportHighQualityLineRendering: 0
-    highQualityLineRenderingMemoryBudget: 128
-    msaaSampleCount: 1
+    supportHighQualityLineRendering: 1
+    highQualityLineRenderingMemoryBudget: 256
+    msaaSampleCount: 8
     supportMotionVectors: 1
     supportScreenSpaceLensFlare: 1
     supportDataDrivenLensFlare: 1
