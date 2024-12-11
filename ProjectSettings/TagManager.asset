@@ -10,6 +10,7 @@ TagManager:
   - TorsoCollider
   - LegCollider
   - HandCollider
+  - Water
   layers:
   - Default
   - TransparentFX

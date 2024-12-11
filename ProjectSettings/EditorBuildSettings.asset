@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainTest.unity
     guid: f1aaaeed8463feb4bbcb0c2dc64d570b
   - enabled: 1
+    path: Assets/Scenes/Island_v001.unity
+    guid: 4303ec497bc63c84590e152a4962e22c
+  - enabled: 0
     path: Assets/Scenes/Island.unity
     guid: e59241a672c542641b92f358bbea3d78
   - enabled: 0
