@@ -11,6 +11,8 @@ TagManager:
   - LegCollider
   - HandCollider
   - Water
+  - Pool
+  - Pipe
   layers:
   - Default
   - TransparentFX

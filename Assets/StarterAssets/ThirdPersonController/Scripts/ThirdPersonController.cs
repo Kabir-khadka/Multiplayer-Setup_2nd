@@ -101,8 +101,6 @@ namespace StarterAssets
         private bool isKicking = false;
         private bool isPunching = false;
 
-        private bool isComboActive;
-        private bool isComboQueued = false; // To queue Combo2 during Combo1
 
 
         // timeout deltatime
